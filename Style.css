@@ -14,7 +14,7 @@ body {
 .background{
   background-color: #E5D1AF;
 }
-
+/* Basic header formatting*/
 h2, h3, h4, h5, h6 {
     font-family: 'Inknut Antiqua', serif;
     
@@ -41,7 +41,7 @@ h2, h3, h4, h5, h6 {
     padding-top: 60px;
 }
 
-
+/*Top Nav for all pages*/
 .topnav a {
     
     color: #FEF9E3;
@@ -94,14 +94,17 @@ h2, h3, h4, h5, h6 {
   --bs-btn-border-radius: var(--bs-border-radius);
   --bs-btn-hover-border-color: transparent;
 }
-
+/*Been using thse normal containers for some paddings until i properly figured out how to space items*/
 .container{
   padding: 20px;
 }
+
+/*Used this container for navbar to hold buttons*/
 .container-sm{
   
   background-color: #A2141C;
 }
+/*Used this conainer for Every pages title*/
 .container-md{
   background-color: #E5D1AF;
   padding-bottom: 10px;
@@ -109,7 +112,7 @@ h2, h3, h4, h5, h6 {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-
+/*Main Large container for every page*/
 .container-lg{
 
   border-radius: 20px;
@@ -122,18 +125,19 @@ h2, h3, h4, h5, h6 {
   
 }
 
+/*Smaller image on story page*/
 .image{
   width: 60%;
   border-radius: 20px;
   
 }
-
+/*Hero image on sotry page*/
 img.w-100{
   padding-bottom: 20px;
   padding-top: 20px;
   border-radius: 40px;
 }
-
+/*Buttons on Sign in page*/
 button.btn.btn-primary{
 
   background-color: #A2141C;
@@ -151,13 +155,7 @@ div.input-group.mb-3{
   padding-bottom: 10px;
   
 }
-button.btn.btn-primary :hover{
-
-  background-color: #000;
-  border-color: #A2141C;
-  
-  
-}
+/*Body texts for Sign in and Contact page*/
 .body-text{
 
   padding-left: 60px;
@@ -181,6 +179,7 @@ h1.title{
     font-size: 55px;
 }
 
+/*Title in body container*/
 h2.subtitle{
   font-weight: 600;
   font-size: 30px;
@@ -189,7 +188,7 @@ h2.subtitle{
 h2.text-center{
   padding-bottom: 10px;
 }
-
+/*Story page title*/
 h2.story-title{
   font-family: "Inknut Antiqua";
   font-weight: 800;
@@ -203,7 +202,7 @@ p{
   font-size: 16px;
   padding-left: 60px;
 }
-/* Paragraphs */
+/* Paragraphs different classes for different pages */
 p.info {
   
     padding-top: 30px;
@@ -213,10 +212,13 @@ p.info {
 }
 
 p.foot {
+  font-weight: 600px;
+  font-size: 16px;
   padding-top: 20px;
   padding-left: 30px;
   text-align: left;
   margin-bottom: 10px;
+  color: #FEF9E3;
 }
 
 p.story{
