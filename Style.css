@@ -97,7 +97,10 @@ h2, h3, h4, h5, h6 {
 }
 /*Been using thse normal containers for some paddings until i properly figured out how to space items*/
 .container{
-  padding: 20px;
+  padding: 30px;
+  color: #E5D1AF;
+  
+  
   
   
 }
@@ -142,8 +145,17 @@ h2, h3, h4, h5, h6 {
   height: auto;
 }
 
+.searchBar{
+  width: 80%;
+  padding-left: 35px;
+}
 .spacer{
   height: 500px;
+}
+
+.searchButton{
+  padding-top: 30px;
+  padding-left: 35px;
 }
 
 /*Smaller image on story page*/
@@ -219,6 +231,15 @@ h2.story-title{
 }
 
 h2.search-title{
+  padding-left: 40px;
+  font-family: "Inknut Antiqua";
+  font-size: 30px;
+  font-weight: 800;
+  color: #6C1D20;
+  padding-bottom: 30px;
+}
+
+h2.search-story{
   padding-left: 40px;
   font-family: "Inknut Antiqua";
   font-size: 30px;
