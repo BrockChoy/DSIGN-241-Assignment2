@@ -46,6 +46,7 @@ h2, h3, h4, h5, h6 {
 .topnav a {
     
     color: #FEF9E3;
+    
     background-color: #A2141C;
     height: 55px;
     padding: 14px 16px;
@@ -55,6 +56,11 @@ h2, h3, h4, h5, h6 {
     font-size: 16px;
     font-weight: 600;
 
+  }
+
+  .topnav a:active{
+
+    color: #383838;
   }
   
 
@@ -318,6 +324,12 @@ a {
   bottom: 0;
   font-weight: 500;
 }
+
+.MauiLink{
+  text-decoration: none;
+
+}
+
 
 
 .footer.container-md{
