@@ -43,81 +43,105 @@
     </div>
     </div>
 
-    <div class="container"></div>
+
+    <div class ="container"></div>
+
     <div class="container-lg">
-        <h2 class="text-center">Be a Donor</h2>
-            <div class="col">
-        <div class = "body-text">
-            <p class = "info">First name*</p> <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1"></span>
-                <input type="text" class="form-control" placeholder="Enter First Name" aria-label="Username" aria-describedby="basic-addon1">
+      <div class="row align-items-start">
+        
+        <div class="col-md-7">
+          <h2 class="text-center mb-4">Be a Donor</h2>
+    
+          <!-- row here -->
+          <div class="row">
+            <div class="col-md-6">
+              <p class="donation-info">First name*</p>
+              <div class="input-group">
+                <span class="input-group-text" id="first-name-addon"></span>
+                <input type="text" class="form-control" placeholder="Enter First Name" aria-label="First Name" aria-describedby="first-name-addon">
               </div>
-
-              <p class = "info">Last name*</p><div class="input-group mb-3">
-                <span class="input-group-text"></span>
-                <input type="text" class="form-control" placeholder="Enter Last Name" aria-label="Password" aria-describedby="basic-addon1">
-
-        </div>
-
-
-
-          </div>
-        <div class = "body-text">
-            <p class = "info">Email address*</p> <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1"></span>
-                <input type="text" class="form-control" placeholder="Enter Email Address" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-md-6">
+              <p class="donation-info">Last name*</p>
+              <div class="input-group">
+                <span class="input-group-text" id="last-name-addon"></span>
+                <input type="text" class="form-control" placeholder="Enter Last Name" aria-label="Last Name" aria-describedby="last-name-addon">
               </div>
-
-              <p class = "info">Country</p><div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1"></span>
-                <input type="text" class="form-control" placeholder="Select Country" aria-label="Password" aria-describedby="basic-addon1">
-
-        </div>
-
-
-
+            </div>
           </div>
-        <div class = "body-text">
-            <p class = "info">Phone number</p> <div class="input-group mb-3">
-                <span class="input-group-text" ></span>
-                <input type="text" class="form-control" placeholder="Enter Phone Number" aria-label="Username" aria-describedby="basic-addon1">
+    
+          
+          <div class="mb-3">
+            <p class="donation-info">Email address*</p>
+            <div class="input-group">
+              <span class="input-group-text" id="email-addon"></span>
+              <input type="email" class="form-control" placeholder="Enter Email Address" aria-label="Email" aria-describedby="email-addon">
+            </div>
+          </div>
+    
+          <!-- row here -->
+          <div class="row">
+            <div class="col-md-6">
+              <p class="donation-info">Country*</p>
+              <div class="input-group">
+                <span class="input-group-text" id="country-addon"></span>
+                <input type="text" class="form-control" placeholder="Enter Country" aria-label="Country" aria-describedby="country-addon">
               </div>
-
-              <p class = "info">Donation amount*</p><div class="input-group mb-3">
-                <span class="input-group-text" ></span>
-                <input type="text" class="form-control" placeholder="Enter Donation Amount" aria-label="Password" aria-describedby="basic-addon1">
-
-        </div>
-
-
-
-          </div>
-              <div class = "body-text">
-            <p class = "info">Payment Method*</p> <div class="input-group mb-3">
-                <span class="input-group-text" ></span>
-                <input type="text" class="form-control" placeholder="Select Payment Method" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="col-md-6">
+              <p class="donation-info">Phone Number*</p>
+              <div class="input-group">
+                <span class="input-group-text" id="phone-addon"></span>
+                <input type="text" class="form-control" placeholder="Enter Phone Number" aria-label="Phone" aria-describedby="phone-addon">
               </div>
-
-              <p class = "info">Would you like to donate anonymously?</p><div class="input-group mb-3">
-                <span class="input-group-text" ></span>
-                <input type="text" class="form-control" placeholder="Select option" aria-label="Password" aria-describedby="basic-addon1">
-
-        </div>
-
-
+            </div>
           </div>
+    
+          
+          <div class="mb-3">
+            <p class="donation-info">Donation amount*</p>
+            <div class="input-group">
+              <span class="input-group-text" id="donation-addon"></span>
+              <input type="text" class="form-control" placeholder="Enter Donation Amount" aria-label="Donation" aria-describedby="donation-addon">
+            </div>
+          </div>
+    
+          
+          <div class="mb-3">
+            <!-- changed all your text info classes to donation info -->
+            <p class="donation-info">Payment Method*</p>
+            <div class="input-group">
+              <span class="input-group-text" id="payment-addon"></span>
+              <input type="text" class="form-control" placeholder="Select Payment Method" aria-label="Payment Method" aria-describedby="payment-addon">
+            </div>
+          </div>
+    
+          
+          <div class="mb-4">
+            <p class="donation-info">Would you like to donate anonymously?</p>
+            <div class="input-group">
+              <span class="input-group-text" id="anonymous-addon"></span>
+              <input type="text" class="form-control" placeholder="Select option" aria-label="Anonymous" aria-describedby="anonymous-addon">
+            </div>
+          </div>
+    
+          <!-- i tried to add an image down here but it was playing up maybe wrap the inputs in a container and row/col the image -->
+          <div class="text-center">
+            <button class="btn btn-primary" type="button">Donate</button>
+          </div>
+        </div>
+    
+        
 
-          <button class="btn btn-primary " type="button" aria-disabled="false">Donate</button>
+          
+      </div>
+    
+
+
+
+      <div class = "spacer">
+        <div class = container></div>
     </div>
-
-
-
-    <div class = container></div>
-    <div class = container></div>
-    <div class = container></div>
-    <div class = container></div>
-    <div class = container></div>
-    <div class = container></div>
 
     <div class = "footer">
 

@@ -318,6 +318,19 @@ p.story{
   padding-bottom: 30px;
 }
 
+p.donation-info{
+
+}
+
+.donation-image img{
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+  display: flex;
+  flex: 2;
+  align-items: flex-start;
+}
+
 /* Links */
 a {
     color: #0066cc;
