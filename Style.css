@@ -12,6 +12,8 @@ body {
   padding-right: 20px;
   height: auto;
 }
+
+/*Used in all pages for backgorund color */
 .background{
   background-color: #E5D1AF;
 }
@@ -25,14 +27,7 @@ h2, h3, h4, h5, h6 {
 
 
 
-.row{
-    border-color:#000;
-    border-width: 10px;
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
-    padding-right: 50px;
-}
+
 .content {
 
     text-align: center;
@@ -46,6 +41,7 @@ h2, h3, h4, h5, h6 {
 .topnav a {
     
     color: #FEF9E3;
+    
     background-color: #A2141C;
     height: 55px;
     padding: 14px 16px;
@@ -56,14 +52,19 @@ h2, h3, h4, h5, h6 {
     font-weight: 600;
 
   }
+
+  .topnav a:active{
+
+    color: #383838;
+  }
   
 
   
-  /* Change color on hover */
-  .topnav a:hover {
-    background-color: #fff;
-    color: black;
-  }
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+}
 
 
 
@@ -75,6 +76,8 @@ h2, h3, h4, h5, h6 {
   margin-right: auto;
   margin-left: auto;
 }
+
+/*Contact us formatting */
 .text-center{
   color: #6C1D20;
   font-weight: 800;
@@ -95,6 +98,7 @@ h2, h3, h4, h5, h6 {
   --bs-btn-border-radius: var(--bs-border-radius);
   --bs-btn-hover-border-color: transparent;
 }
+
 /*Been using thse normal containers for some paddings until i properly figured out how to space items*/
 .container{
   padding: 30px;
@@ -130,6 +134,14 @@ h2, h3, h4, h5, h6 {
   height: auto;
   
 }
+.row{
+  border-color:#000;
+  border-width: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 50px;
+}
 
 .row{
   border-radius: 20px;
@@ -149,6 +161,9 @@ h2, h3, h4, h5, h6 {
   width: 80%;
   padding-left: 35px;
 }
+
+
+/* Used at the bottom of Brocks pages*/
 .spacer{
   height: 500px;
 }
@@ -197,6 +212,7 @@ div.input-group.mb-3{
   font-weight: 600;
 }
 
+/*Used in contact us page */
 .body-text2{
   padding-left: 60px;
   padding-top: 20px;
@@ -229,7 +245,7 @@ h2.story-title{
   color: #6C1D20;
   padding-bottom: 30px;
 }
-
+/*Titles of stories for search page */
 h2.search-title{
   padding-left: 40px;
   font-family: "Inknut Antiqua";
@@ -238,7 +254,7 @@ h2.search-title{
   color: #6C1D20;
   padding-bottom: 30px;
 }
-
+/*Title to search for a story */
 h2.search-story{
   padding-left: 40px;
   font-family: "Inknut Antiqua";
@@ -247,7 +263,7 @@ h2.search-story{
   color: #6C1D20;
   padding-bottom: 30px;
 }
-
+/*Search images on search page */
 .searchImage{
   width: 100%;
   height: 40%;
@@ -256,7 +272,7 @@ h2.search-story{
 
 
 
-
+/*standard paragraph formatting */
 p{
   color: 	#383838 ;
   text-align: left;
@@ -264,6 +280,7 @@ p{
   font-size: 16px;
   padding-left: 60px;
 }
+
 /* Paragraphs different classes for different pages */
 p.info {
   
@@ -272,7 +289,7 @@ p.info {
     margin-left: auto;
     margin-right: auto;
 }
-
+/* footer formatting*/
 p.foot {
   font-weight: 600px;
   font-size: 16px;
@@ -282,7 +299,7 @@ p.foot {
   margin-bottom: 10px;
   color: #FEF9E3;
 }
-
+/* paragraph formatting for search page*/
 p.search{
   line-height: 180%;
   font-weight: 500;
@@ -291,7 +308,7 @@ p.search{
   width: 100% ;
   padding-bottom: 30px;
 }
-
+/*formatting for stories pages */
 p.story{
   line-height: 180%;
   font-weight: 500;
@@ -306,7 +323,7 @@ a {
     color: #0066cc;
     text-decoration: none;
 }
-
+/* footer formatting*/
 .footer{
   position: fixed;
   width: 100%;
@@ -318,11 +335,19 @@ a {
   bottom: 0;
   font-weight: 500;
 }
-
-
 .footer.container-md{
   background-color: #A2141C;
 }
+
+/*link on search page to stop blue color on clicking story link */
+.MauiLink{
+  text-decoration: none;
+
+}
+
+
+
+
 .inknut-antiqua-light {
     font-family: "Inknut Antiqua", serif;
     font-weight: 300;
@@ -364,4 +389,78 @@ a {
     font-weight: 900;
     font-style: normal;
   }
-  
+
+/* custom container for donation page */
+.container-cust {
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Montserrat";
+  background-color: #FEF9E3;
+  padding-bottom: 120px;
+  padding-top: 40px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr 0.5fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "A A A A . . ."
+    "B . C . K K K"
+    "B- . C- . K K K"
+    ". . . . K K K"
+    "d . . . K K K"
+    "D- D- D- . K K K"
+    ". . . . K K K"
+    "E . F . K K K"
+    "E- . F- . K K K"
+    ". . . . K K K"
+    "G . . . K K K"
+    "G- G- G- . K K K"
+    ". . . . K K K"
+    "H . . . K K K"
+    "H- H- H- . K K K"
+    ". . . . K K K"
+    "I I- I- . K K K"
+    ". . . . K K K"
+    "J J J . . . .";
+}
+
+.A { grid-area: A; }
+
+.B { grid-area: B; }
+
+.C { grid-area: C; }
+
+.B- { grid-area: B-; }
+
+.C- { grid-area: C-; }
+
+.d { grid-area: d; }
+
+.D- { grid-area: D-; }
+
+.E { grid-area: E; }
+
+.F { grid-area: F; }
+
+.E- { grid-area: E-; }
+
+.F- { grid-area: F-; }
+
+.G { grid-area: G; }
+
+.G- { grid-area: G-; }
+
+.H { grid-area: H; }
+
+.H- { grid-area: H-; }
+
+.I { grid-area: I; }
+
+.I- { grid-area: I-; }
+
+.J { grid-area: J; }
+
+.K { grid-area: K; }
+
