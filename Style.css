@@ -403,77 +403,7 @@ a {
     font-style: normal;
   }
 
-/* custom container for donation page */
-.container-cust {
-  border-radius: 20px;
-  text-align: center;
-  font-family: "Montserrat";
-  background-color: #FEF9E3;
-  padding-bottom: 120px;
-  padding-top: 40px;
-  height: auto;
-  display: grid;
-  grid-template-columns: 1fr 0.5fr 1fr 0.5fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "A A A A . . ."
-    "B . C . K K K"
-    "B- . C- . K K K"
-    ". . . . K K K"
-    "d . . . K K K"
-    "D- D- D- . K K K"
-    ". . . . K K K"
-    "E . F . K K K"
-    "E- . F- . K K K"
-    ". . . . K K K"
-    "G . . . K K K"
-    "G- G- G- . K K K"
-    ". . . . K K K"
-    "H . . . K K K"
-    "H- H- H- . K K K"
-    ". . . . K K K"
-    "I I- I- . K K K"
-    ". . . . K K K"
-    "J J J . . . .";
+.text-info {
+  color: #A2141C !important;
 }
-
-.A { grid-area: A; }
-
-.B { grid-area: B; }
-
-.C { grid-area: C; }
-
-.B- { grid-area: B-; }
-
-.C- { grid-area: C-; }
-
-.d { grid-area: d; }
-
-.D- { grid-area: D-; }
-
-.E { grid-area: E; }
-
-.F { grid-area: F; }
-
-.E- { grid-area: E-; }
-
-.F- { grid-area: F-; }
-
-.G { grid-area: G; }
-
-.G- { grid-area: G-; }
-
-.H { grid-area: H; }
-
-.H- { grid-area: H-; }
-
-.I { grid-area: I; }
-
-.I- { grid-area: I-; }
-
-.J { grid-area: J; }
-
-.K { grid-area: K; }
 
