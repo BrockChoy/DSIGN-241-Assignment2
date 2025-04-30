@@ -295,9 +295,10 @@ p{
 p.info {
   
     padding-top: 30px;
-    padding-left: 300px;
+    padding-right: 350px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 /* footer formatting*/
 p.foot {
